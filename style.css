@@ -1,0 +1,21 @@
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 500px;
+}
+
+.lamp {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+}
+
+.lightOn {
+    background-color: yellow;
+}
