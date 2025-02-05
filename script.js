@@ -36,8 +36,10 @@ function updateView() {
         <div class="lamp"></div>
         <div class="lamp"></div>
     </div>
-    <div>Time: ${spentSeconds}</div>
-    <ol id="timeList">${printTimeList()}</ol>
+    <div>
+        <div class="timeDisplay">Time: ${spentSeconds}</div>
+        <ol id="timeList">${printTimeList()}</ol>
+    </div>
     `
 }
 

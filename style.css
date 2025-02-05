@@ -1,4 +1,10 @@
 
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+}
+
 .container {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -17,5 +23,13 @@
 }
 
 .lightOn {
-    background-color: yellow;
+    background-color: rgb(255, 0, 0);
+}
+
+.timeDisplay {
+    font-size: 40px;
+}
+
+#timeList {
+    font-size: 20px;
 }
